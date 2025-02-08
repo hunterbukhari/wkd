@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#brands {
+    margin-top: 30px;
+}
+
+.brand-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.brand {
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+}
+
+.brand-logo {
+    display: flex;
+    flex-direction: column;  /* ترتيب الصورة والنص عموديًا */
+    justify-content: center;
+    align-items: center;
+    height: 150px;  /* تحديد ارتفاع ثابت لصورة اللوجو */
+}
+
+.brand-logo img {
+    width: auto;  /* عرض الصورة بناءً على الحجم الأصلي */
+    height: 100%;  /* جعل الارتفاع 100% من الحاوية */
+    max-width: 120px;  /* تحديد الحد الأقصى للعرض */
+    object-fit: contain;  /* الحفاظ على النسبة الأصلية للصورة */
+}
+
+.brand-logo h3 {
+    font-size: 20px;
+    margin: 10px 0 0 0;  /* إضافة هامش بين الصورة والنص */
+}
+
+#brand-details {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#brand-details h3 {
+    color: #333;
+}
+
+#brand-details p {
+    color: #666;
+}
+
+#brand-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#brand-details li {
+    margin: 10px 0;
+}
+
+#brand-details a {
+    color: red;
+    text-decoration: none;
+}
+
+/* تصميم نموذج الطلب */
+#request-form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#request-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#request-form input, #request-form select, #request-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#request-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#request-form button:hover {
+    background-color: #555;
+}
+
+/* إضافة صور العلامات */
+#brand-details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* تنسيق الصور داخل تفاصيل العلامة */
+.brand-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.brand-images img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

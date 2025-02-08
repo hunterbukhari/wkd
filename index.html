@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العلامات التجارية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>مرحبًا بكم في علاماتي التجارية</h1>
+        <p>استعرض العلامات التجارية والفروع الخاصة بنا</p>
+    </header>
+
+    <section id="brands">
+        <h2>علاماتنا التجارية</h2>
+        <div class="brand-container">
+            <!-- فلورينا -->
+            <div class="brand" onclick="showBrandDetails('florina')">
+                <div class="brand-logo">
+                    <img src="images/florina-logo.png" alt="فلورينا Logo" />
+                    <h3>فلورينا</h3>
+                </div>
+                <p>أحذية وحقائب صغيرة</p>
+            </div>
+
+            <!-- mmmm -->
+            <div class="brand" onclick="showBrandDetails('mmmm')">
+                <div class="brand-logo">
+                    <img src="images/mmmm-logo.png" alt="mmmm Logo" />
+                    <h3>mmmm</h3>
+                </div>
+                <p>برجر اللحم والدجاج</p>
+            </div>
+
+            <!-- ريتشي -->
+            <div class="brand" onclick="showBrandDetails('richy')">
+                <div class="brand-logo">
+                    <img src="images/richy-logo.png" alt="ريتشي Logo" />
+                    <h3>ريتشي</h3>
+                </div>
+                <p>أقمشة وتفصيل الثياب العربية</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="brand-details">
+        <!-- سيتم تحميل تفاصيل العلامة هنا -->
+    </section>
+
+    <section id="request-form">
+        <h2>طلب الحصول على العلامة التجارية</h2>
+        <form action="#" method="POST">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="brand">العلامة المطلوبة:</label>
+            <select id="brand" name="brand" required>
+                <option value="florina">فلورينا</option>
+                <option value="mmmm">mmmm</option>
+                <option value="richy">ريتشي</option>
+            </select>
+
+            <label for="message">رسالة إضافية (اختياري):</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">إرسال الطلب</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
