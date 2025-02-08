@@ -10,26 +10,26 @@ function showBrandDetails(brand) {
         title = 'فلورينا';
         description = 'علامة تجارية لبيع الأحذية والحقائب الصغيرة.';
         images = [
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/florina-logo.png',
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/florina-logo.png',
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/florina-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/florina-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/florina-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/florina-logo.png',
  
         ];
     } else if (brand === 'mmmm') {
         title = 'mmmm';
         description = 'علامة تجارية متخصصة في بيع برجر اللحم والدجاج.';
         images = [
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/richy-logo.png',
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/richy-logo.png',
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/richy-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/mmmm-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/mmmm-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/mmmm-logo.png',
         ];
     } else if (brand === 'richy') {
         title = 'ريتشي';
         description = 'علامة تجارية لبيع الأقمشة وتفصيل الثياب العربية.';
         images = [
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/mmmm-logo.png',
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/mmmm-logo.png',
-            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/mmmm-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/richy-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/richy-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/wkd/main/images/richy-logo.png',
         ];
     }
 
