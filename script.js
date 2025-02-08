@@ -10,19 +10,26 @@ function showBrandDetails(brand) {
         title = 'فلورينا';
         description = 'علامة تجارية لبيع الأحذية والحقائب الصغيرة.';
         images = [
-            'images/florina1.jpg', 'images/florina2.jpg', 'images/florina3.jpg'  // أضف صورك هنا
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/florina-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/florina-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/florina-logo.png',
+ 
         ];
     } else if (brand === 'mmmm') {
         title = 'mmmm';
         description = 'علامة تجارية متخصصة في بيع برجر اللحم والدجاج.';
         images = [
-            'images/mmmm1.jpg', 'images/mmmm2.jpg', 'images/mmmm3.jpg'  // أضف صورك هنا
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/richy-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/richy-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/richy-logo.png',
         ];
     } else if (brand === 'richy') {
         title = 'ريتشي';
         description = 'علامة تجارية لبيع الأقمشة وتفصيل الثياب العربية.';
         images = [
-            'images/richy1.jpg', 'images/richy2.jpg', 'images/richy3.jpg'  // أضف صورك هنا
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/mmmm-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/mmmm-logo.png',
+            'https://raw.githubusercontent.com/hunterbukhari/repository/branch/images/mmmm-logo.png',
         ];
     }
 
